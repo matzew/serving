@@ -39,7 +39,7 @@ spec:
 apiVersion: policy/v1beta1
 kind: PodDisruptionBudget
 metadata:
-  name: webhook-pdb
+  name: webhook
   namespace: knative-serving
   labels:
     serving.knative.dev/release: devel
